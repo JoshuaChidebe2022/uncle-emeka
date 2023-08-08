@@ -1,0 +1,287 @@
+#nav{
+    background-color: rgba(47, 187, 47, 0.795);
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#nav-items{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+}
+
+#nav-items a{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+#live{
+    border: 2px solid red;
+    border-radius: 7%;
+}
+
+#live:hover{
+    border: 2px solid white;
+    background-color: red;
+    color: white;
+    transition: all 1.0s;
+}
+
+#nav-i:hover{
+    color: rgb(179, 74, 74);
+    transition: 0.5s;
+}
+
+#nav-i2:hover{
+    color: rgb(143, 190, 32);
+    transition: 0.5s;
+
+}#nav-i3:hover{
+    color: rgb(209, 32, 141);
+    transition: 0.5s;
+}
+
+
+
+#f-pic{
+    width: 100%;
+    margin-top: 90px;
+}
+
+.buttons{
+    width: 250px;
+    height: 170px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 0px 50px;
+    border: 0.3px solid black;
+    border-radius: 8%;
+}
+#butt{
+    background-color: rgb(255, 255, 255);
+}
+.buttons a{
+    text-decoration: none;
+    color: black;
+}
+
+.buttons:hover{
+    background-color: rgb(53, 55, 163);
+    color: #ffffff;
+    transition: all 1s;
+}
+
+
+.image img{
+    width: 80%;
+    height: 300px;
+    border-radius: 2%;
+}
+
+.image video{
+    width: 80%;
+    height: 300px;
+    border-radius: 2%;
+}
+
+.container{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    
+}
+#m-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    background-color: #2828c9c9;
+}
+.container2{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.text{   
+    font-size: 40px;
+    padding-bottom: 0%;
+    padding-left: 5%;
+}
+
+@media(max-width: 1000px){
+    .buttons:hover{background-color: white; color: #000;}
+    #div6 .div7{margin-left: 0;}
+    #div8{flex-direction: column;}
+    .text2 p{font-size: 20px;} 
+    .text{font-size: 20px;} 
+    .image img{width: 250px; height: 150px;}}
+
+@media(max-width: 704px){
+    #button4 button{
+       width: 150px; 
+       margin-top: -15%;
+       margin-right: 6%;
+    }
+}
+
+@media(max-width: 587px){
+    #button4 button{
+        width: 100px;
+    }
+}
+@media(max-width: 551px){
+    #button4 button{
+        margin-right: -60px;
+    }
+}
+@media(max-width: 551px){
+    .text2 p{font-size: 15px;}
+    #button4 button{
+       margin-right: -50px;
+    }
+}
+
+@media(max-width: 480px){
+    .two .email{font-size: 14px;}
+    .image img{width: 180px; height: 120px;}
+    .text p{font-size: 15px;}
+    #nav-items a{font-size: 12px;}
+    #nav img{width: 70px; height: 70px; margin-top: 5.2%;}
+}
+@media(max-width: 370px){
+    #nav-items a{font-size: 9px;}
+    .text2 p{font-size: 12px;}
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.section2{
+    width: 100%;
+    height: 800px;
+    left: 0;
+    margin-top: 50px;
+    padding-top: 20px;
+    background-color: rgb(51, 129, 61);
+}
+
+.icons{
+    width: 50px;
+    height: 50px;
+}
+
+.h1{
+    color: white;
+    font-size: 40px;
+}
+
+#container3{
+    margin-top: 50px;
+    align-items: center;
+}
+
+.text2{
+    float: left;
+    font-size: 40px;
+}
+
+#button4{
+    float: right;
+    margin-right: 15%;
+    margin-top: 3%;
+}
+
+#but{
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 5%;
+}
+
+#but:hover{
+    margin-top: -3%;
+    transition: all ease-in-out 0.2s;
+}
+
+#div6{
+    background-color: #292929;
+    margin-top: 180px;
+    height: 950px;
+    width: 100%;
+}
+
+#div8{
+    display: flex;
+    padding-top: 100px;
+}
+.div7{
+    margin-left: 100px;
+}
+.div7 li{
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+}
+
+.div7 a{
+    text-decoration: none;
+}
+.one{
+    font-size: 30px;
+}
+.ql{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.ql:hover{
+    cursor: pointer;
+    color: #51d107;
+    transition: 0.4s ease;
+}
+.two{
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.icons2{
+    width: 60px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.icons2:hover{
+    opacity: 80%;
+    transition: ease-in-out 0.2s;
+}
+
+.Email{
+    list-style-type: none;
+    margin-left: -20px;
+}
+.email{ 
+    font-size: 20px;
+    list-style-type: none;
+    margin-top: 10px;
+    padding-left: 10px;
+}

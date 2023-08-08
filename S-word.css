@@ -1,0 +1,38 @@
+#container{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0%;
+    background-color: rgb(25, 100, 100);
+}
+
+.books{
+    width: 100px;
+    padding: 80px;
+}
+
+#box{margin-top: 50px;}
+
+@media (max-width: 620px) {
+    .books{padding: 20px;}
+}
+
+@media (max-width: 450px){
+    .books{padding: 10px;}
+}
+
+@media (max-width: 385px){
+    .books{padding: 3px;}
+}
+
+@media (max-width: 345px){
+    .books{width: 70px;}
+}
+
+#back{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+}

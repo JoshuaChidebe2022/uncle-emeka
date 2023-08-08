@@ -1,0 +1,93 @@
+body{
+    margin: 0px 15px;
+    background-color: rgb(111, 155, 194);
+    color: aliceblue;
+}
+#back{
+    width: 30px;
+    position: absolute;
+    top: 2px;
+    left: 8px;
+}
+#head{
+    margin: 0px 0 0 25px;
+}
+#h2{
+    margin-left: 20px;
+}
+#audio{
+    margin-top: 50px;
+}
+
+.aud{
+    width: 100%;
+    padding-top: 5px;
+}
+
+@media (max-width: 1000px) {
+    #header{left: -0%;}
+    #div6 .div7{margin-left: 0;}
+    #div8{flex-direction: column;}
+}
+
+#div6{
+    background-color: #292929;
+    margin-top: 50px;
+    height: 950px;
+    width: 100%;
+}
+
+#div8{
+    display: flex;
+    padding-top: 100px;
+}
+.div7{
+    margin-left: 100px;
+}
+.div7 li{
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+}
+
+.div7 a{
+    text-decoration: none;
+}
+.one{
+    font-size: 30px;
+}
+.ql{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.ql:hover{
+    cursor: pointer;
+    color: #51d107;
+    transition: 0.4s ease;
+}
+.two{
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.icons2{
+    width: 60px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.icons2:hover{
+    opacity: 80%;
+    transition: ease-in-out 0.2s;
+}
+
+.Email{
+    list-style-type: none;
+    margin-left: -20px;
+}
+.email{ 
+    font-size: 20px;
+    list-style-type: none;
+    margin-top: 10px;
+    padding-left: 10px;
+}

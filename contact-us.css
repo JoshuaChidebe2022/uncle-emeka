@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#header{margin-left: 45px;}
+
+#back{
+    position: absolute;
+    width: 40px;
+    top: 0;
+}
+
+.texts{font-size: 40px;}
+
+#un-li{list-style-type: none;}
+
+.s-text{float: left; padding-left: 10px;}
+
+.social{width: 30px;margin-top: 10px; float: left;}
+
+@media(max-width: 1000px){
+    #div6 .div7{margin-left: 0;}
+    #div8{flex-direction: column;}
+    .texts{font-size: 20px;}
+}
+
+#div6{
+    background-color: #292929;
+    margin-top: 100px;
+    height: 950px;
+    width: 100%;
+}
+
+#div8{
+    display: flex;
+    padding-top: 100px;
+}
+.div7{
+    margin-left: 100px;
+}
+.div7 li{
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+}
+
+.div7 a{
+    text-decoration: none;
+}
+.one{
+    font-size: 30px;
+}
+.ql{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.ql:hover{
+    cursor: pointer;
+    color: #51d107;
+    transition: 0.4s ease;
+}
+.two{
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.icons2{
+    width: 60px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.icons2:hover{
+    opacity: 80%;
+    transition: ease-in-out 0.2s;
+}
+
+.Email{
+    list-style-type: none;
+    margin-left: -20px;
+}
+.email{ 
+    font-size: 20px;
+    list-style-type: none;
+    margin-top: 10px;
+    padding-left: 10px;
+}
